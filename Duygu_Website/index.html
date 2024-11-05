@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Duygu Sezer - Game Developer</title>
+  <meta name="title" content="Duygu Sezer - Game Developer">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="./assets/Cv/Duygu Sezer Cv.pdf" class="navbar-link" target="_blank" rel="noopener noreferrer">Resume</a>
+        </li>
+        
+
+          
+            <li>
+              <a href="#services" class="navbar-link">Services</a>
+          </li>
+          
+
+          <li>
+            <a href="#my-projects" class="navbar-link">My Projects</a>
+          </li>
+
+         
+            <li>
+              <a href="#blog" class="navbar-link">Blog</a>
+          </li>
+          
+
+          <li>
+            <a href="#footer" class="navbar-link">Contact</a>
+        </li>
+        
+        
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Duygu Sezer</h1>
+
+            <p class="hero-subtitle">
+              Game Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/Duygun.png" width="800" height="800" alt="Duygu Sezer" class="w-100">
+
+            </div>
+
+            <p class="section-text">
+              Hi, I'm Duygu Sezer, a creative game developer with a dream of making the world a better place by creating impactful games.
+            </p>
+
+            <a href="./assets/Cv/Duygu Sezer Cv.pdf" class="btn has-before" target="_blank" rel="noopener noreferrer">
+              <span class="span">Download CV</span>
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+          </a>
+          
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-labelledby="service-label" id="services">
+        <div class="container">
+            <div class="title-wrapper">
+                <div>
+                    <p class="section-subtitle">
+                        Services That I Provide
+                    </p>
+                    <h2 class="h2 section-title" id="service-label">Services</h2>
+                </div>
+                <p class="section-text">
+                    Combining technical expertise with creative design, I specialize in crafting unique and engaging gaming experiences. Using Unreal Engine 5 and Unity, I develop high-quality, optimized games that bring concepts to life through immersive environments, detailed mechanics, and storytelling. Whether you're looking for a polished 2D game or a dynamic FPS adventure, I'm dedicated to pushing the boundaries of interactive entertainment.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="code-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Game Development</h3>
+
+                  <p class="card-text">
+                    Offering custom game development services tailored to your needs. I create high-quality, immersive game experiences using modern game engines, primarily Unreal Engine 5.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="A game controller or joystick icon."></a>
+
+                </div>
+              </li>
+
+
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="game-controller-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">2D & 3D Game Design</h3>
+
+                  <p class="card-text">
+                    Designing engaging 2D and 3D games with Unity, from concept to completion, focusing on level design, mechanics, and interactive storytelling.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my 2D & 3D Game Design service"></a>
+
+                </div>
+              </li>
+
+
+
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="aperture-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Machine Learning OpenCV</h3>
+
+                  <p class="card-text">
+                    Delivering advanced image processing solutions, focusing on enhancing image quality, object detection, and data extraction for insightful analysis.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Image Processing service"></a>
+
+                </div>
+              </li>
+
+
+
+              
+
+
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Web Front-End</h3>
+
+                  <p class="card-text">
+                    Creating intuitive and visually appealing websites, from concept to deployment, with a focus on user experience, responsive design, and seamless navigation.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Website Design service"></a>
+
+                </div>
+              </li>
+
+             
+
+             
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">I Make The Future</p>
+
+          <h2 class="h2 section-title">I Develop & Create Digital Future.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                I create innovative, user-centered digital solutions. My goal is to make technology accessible to everyone while establishing a distinctive digital identity for brands.
+              </p>
+
+              <p class="section-text">
+                With expertise in web design, user experience, and digital transformation, I approach each project with a professional mindset, focusing on developing modern, creative, and impactful digital products.
+              </p>
+
+              <a href="mailto:sezerduygu465@gmail.com?subject=HelloDuygu" class="btn has-before">sezerduygu465@gmail.com</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Game Design</p>
+
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Machine Learning OpenCV</p>
+
+                    <data class="progress-value" value="70">70%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 70%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Web Front-End</p>
+
+                    <data class="progress-value" value="70">70%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 70%;"></div>
+                  </div>
+                </li>
+
+              
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" aria-labelledby="portfolio-label" id="my-projects">
+        <div class="title-wrapper container">
+            <div>
+                <p class="section-subtitle" id="portfolio-label">Our Works</p>
+                <h2 class="h2 section-title">My Projects</h2>
+            </div>
+            <p class="section-text">
+                Explore my projects that span various fields, including game design. Each project showcases my ability to combine technical skills with design principles, creating engaging and effective digital experiences.
+            </p>
+        </div> 
+    </section>
+    
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/eJYK3O.png" width="700" height="700" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Game Design</h3>
+
+                 
+                </div>
+
+                <a href="C:\Users\duygu\OneDrive\Desktop\pfolio-master\assets\images\eJYK3O.png"  class="layer-link" target="_blank" rel="noopener noreferrer"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/Jecc7G.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Game Design</h3>
+
+                </div>
+
+                <a href="C:\Users\duygu\OneDrive\Desktop\pfolio-master\assets\images\Jecc7G.png" class="layer-link" target="_blank" rel="noopener noreferrer"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/mxKHMG.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Game Design</h3>
+
+                
+                </div>
+
+                <a href="C:\Users\duygu\OneDrive\Desktop\pfolio-master\assets\images\mxKHMG.png" class="layer-link" target="_blank" rel="noopener noreferrer"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/Ekran görüntüsü 2024-10-27 185737.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Game Design</h3>
+
+                  
+                </div>
+
+                <a href="C:\Users\duygu\OneDrive\Desktop\pfolio-master\assets\images\Ekran görüntüsü 2024-10-27 185737.png" class="layer-link" target="_blank" rel="noopener noreferrer"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+     <!-- BLOG SECTION -->
+<section class="section blog" aria-labelledby="blog-label" id="blog">
+  <div class="container">
+      <p class="section-subtitle" id="blog-label">Recent Articles</p>
+      <h2 class="h2 section-title">Blog</h2>
+      
+      <ul class="blog-list">
+          <!-- Blog Post 1 -->
+          <li>
+              <div class="blog-card">
+                  <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                      <img src="./assets/images/yeni.png" width="700" height="470" loading="lazy" alt="My Game" class="img-cover">
+                  </figure>
+                  
+                  <div class="card-content">
+                      <time class="time" datetime="2024-11-04">
+                          <span class="span text-lg">04</span>
+                          November 2024
+                      </time>
+                      
+                      <div>
+                          <h3 class="h3 card-title">Zombie Game</h3>
+                          <p class="card-text">
+                              Creating immersive gameplay experiences has always been a passion of mine, and the development of my first zombie-themed FPS game allowed me to dive deep into game mechanics, environment design, and AI programming.
+                          </p>
+                          <a href="https://medium.com/@sezerduygu465/zombie-fps-game-development-journey-with-unreal-engine-5-4-a313af5fc604" class="btn has-before">
+                              <span class="span">Read more</span>
+                              <ion-icon name="arrow-forward"></ion-icon>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </li>
+          
+          <!-- Blog Post 2 -->
+          <li>
+              <div class="blog-card">
+                  <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                      <img src="./assets/images/Jecc7G.png" width="700" height="470" loading="lazy" alt="Brewing Bad" class="img-cover">
+                  </figure>
+                  
+                  <div class="card-content">
+                      <time class="time" datetime="2024-04">
+                          <span class="span text-lg">April</span>
+                          2024
+                      </time>
+                      
+                      <div>
+                          <h3 class="h3 card-title">Brewing Bad</h3>
+                          <p class="card-text">
+                              As part of our game development journey, we created “Brewing Bad,” a single-player simulation game that allows players to experience managing a café. This game emphasizes management skills and time management in a fun and engaging way.
+                          </p>
+                          <a href="https://medium.com/@sezerduygu465/brewing-bad-an-engaging-caf%C3%A9-management-simulation-experience-0873e7ca1018" class="btn has-before">
+                              <span class="span">Read more</span>
+                              <ion-icon name="arrow-forward"></ion-icon>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </li>
+
+          <!-- Başka blog yazıları eklemek isterseniz, yeni <li> öğeleri ekleyebilirsiniz -->
+      </ul>
+  </div>
+</section>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+    <div class="container">
+
+        <ul class="footer-list">
+            <li>
+                <p class="h4 footer-list-title">Get in touch</p>
+            </li>
+            <li>
+                <a href="mailto:sezerduygu465@gmail.com?subject=HelloDuygu" class="footer-link">sezerduygu465@gmail.com</a>
+            </li>
+        </ul>
+
+        <ul class="footer-list">
+            <li>
+                <p class="h4 footer-list-title">Locations</p>
+            </li>
+            <li>
+              <a href="https://www.google.com/maps/place/Nil%C3%BCfer,+Bursa/" class="footer-link" target="_blank" rel="noopener noreferrer">Nilüfer-Bursa</a>
+
+            </li>
+        </ul>
+
+        <ul class="social-list">
+            <li>
+                <a href="https://www.instagram.com/duygusezrr" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/duygusezr" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/duygusezrr" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
